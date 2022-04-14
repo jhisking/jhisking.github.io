@@ -12,14 +12,14 @@
 
 # theme                  : "minimal-mistakes-jekyll"
 # remote_theme           : "mmistakes/minimal-mistakes"
-minimal_mistakes_skin    : "sunrise" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+minimal_mistakes_skin    : "dirt" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
 locale                   : "en-US"
 title                    : "Tom's Dad Blog"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
-name                     : "Your Name"
+name                     : "Tom's Dad"
 description              : "An amazing website."
 url                      : "https://jhisking.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
@@ -39,9 +39,9 @@ comments:
     # https://developers.facebook.com/docs/plugins/comments
     appid                :
     num_posts            : # 5 (default)
-    colorscheme          : # "light" (default), "dark"
+    colorscheme          : # "dark" (default), "dark"
   utterances:
-    theme                : # "github-light" (default), "github-dark"
+    theme                : # "github-dark" (default), "github-dark"
     issue_term           : # "pathname" (default)
   giscus:
     repo_id              : # Shown during giscus setup at https://giscus.app
@@ -111,7 +111,7 @@ author:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
       # url: "mailto:jhisking@naver.com"
-    - label: "Website"
+    - label: "Homepage"
       icon: "fas fa-fw fa-link"
       # url: "https://tomsdad.netlify.app/"
     - label: "Facebook"
@@ -123,26 +123,30 @@ author:
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       # url: "https://www.instagram.com/junnydaddy07/"
-
+    - label: "PortFolio"
+      icon: "fab fa-fw fa-file"
+      # url: "https://jhisking.github.io/Portfolio/"
 # Site Footer
 footer:
   links:
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope-square"
+      # url: "mailto:jhisking@naver.com"
+    - label: "Homepage"
+      icon: "fas fa-fw fa-link"
+      # url: "https://tomsdad.netlify.app/"
     - label: "Facebook"
       icon: "fab fa-fw fa-facebook-square"
       # url: "https://www.facebook.com/jonghun.park.9655/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       # url: "https://github.com/jhisking"
-    - label: "GitLab"
-      icon: "fab fa-fw fa-gitlab"
-      # url: 
-    - label: "Bitbucket"
-      icon: "fab fa-fw fa-bitbucket"
-      # url:
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       # url: "https://www.instagram.com/junnydaddy07/"
-
+    - label: "PortFolio"
+      icon: "fab fa-fw fa-file"
+      # url: "https://jhisking.github.io/Portfolio/"
 
 # Reading Files
 include:
